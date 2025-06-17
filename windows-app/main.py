@@ -10,17 +10,7 @@ from automation.mastodon_automation import MastodonAutomation
 from reports.report_generator import ReportGenerator
 import os
 
-class SocialMediaEvidenceTool(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Social Media Evidence Tool")
-        self.setGeometry(100, 100, 1000, 800)
-        
-        self.facebook_automation = None
-        self.instagram_automation = None
-        self.reddit_automation = None
-        self.mastodon_automation = None
-        self.report_generator = ReportGenerator()
+
         
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
