@@ -1,14 +1,4 @@
-import sys
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QFormLayout, 
-                             QPushButton, QComboBox, QLabel, QLineEdit, QMessageBox,
-                             QGroupBox, QHBoxLayout, QRadioButton, QCheckBox)
-from PyQt5.QtCore import Qt
-from automation.facebook_automation import FacebookAutomation
-from automation.instagram_automation import InstagramAutomation
-from automation.reddit_automation import RedditAutomation
-from automation.mastodon_automation import MastodonAutomation
-from reports.report_generator import ReportGenerator
-import os
+
 
 class SocialMediaEvidenceTool(QMainWindow):
     def __init__(self):
